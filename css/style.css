@@ -381,7 +381,23 @@ p{
 .menu:active{
 	color: #003F5E;
 	text-decoration: none;
-}
+
+	
+.menu li:hover ul {
+        display:block;
+        position: absolute;
+        padding: 0;
+        margin:-16px;
+        margin-top:10px;
+        width: 10px;
+        float: none;
+                }
+.menu  li ul {
+        display:none;
+        position:absolute;
+        min-width:130px;
+        }
+
 
 /*SEUDO CLASES*/
 p {
