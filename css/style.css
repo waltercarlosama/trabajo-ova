@@ -381,8 +381,9 @@ p{
 .menu:active{
 	color: #003F5E;
 	text-decoration: none;
-
-
+}
+        
+   
 .menu li:hover ul {
         display:block;
         position: absolute;
